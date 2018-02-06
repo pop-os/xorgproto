@@ -1,8 +1,7 @@
 Source: xorgproto
 Section: x11
 Priority: optional
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-XSBC-Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
  debhelper (>= 10),
  quilt,
