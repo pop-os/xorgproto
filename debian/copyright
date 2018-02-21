@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: xorgproto
-Source: 
+Source: https://xorg.freedesktop.org/releases/individual/proto/
 
 Files: *
 Copyright:
