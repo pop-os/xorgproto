@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-project('xorgproto', 'c', license : 'MIT', version : '2018.1')
+project('xorgproto', 'c', license : 'MIT', version : '2018.3')
 pkg = import('pkgconfig')
 cc = meson.get_compiler('c')
 sed = find_program('sed')
@@ -35,9 +35,9 @@ pcs = [
         ['fontsproto',          '2.1.3'],
         ['glproto',             '1.4.17'],
         ['inputproto',          '2.3.2'],
-        ['kbproto',             '1.0.6'],
-        ['presentproto',        '1.0'],
-        ['randrproto',          '1.5.0'],
+        ['kbproto',             '1.0.7'],
+        ['presentproto',        '1.1'],
+        ['randrproto',          '1.6.0'],
         ['recordproto',         '1.14.2'],
         ['renderproto',         '0.11.1'],
         ['resourceproto',       '1.2.0'],
@@ -53,17 +53,23 @@ pcs = [
         ['xf86miscproto',       '0.9.3'],
         ['xf86vidmodeproto',    '2.3.1'],
         ['xineramaproto',       '1.2.1'],
-        ['xproto',              '7.0.31'],
+        ['xproto',              '7.0.32'],
         ['xproxymngproto',      '1.0.3'],
 ]
 
 foreach pc : pcs
+    if pc[0] == 'xf86driproto'
+        subdir = 'X11/dri'
+    else
+        subdir = ''
+    endif
     pkg.generate(
         name : pc[0],
         filebase : pc[0],
         description : pc[0] + ' headers',
         version : pc[1],
-        install_dir : get_option('datadir') + '/pkgconfig'
+        install_dir : get_option('datadir') + '/pkgconfig',
+        subdirs : subdir,
     )
 endforeach
 
