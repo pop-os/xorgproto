@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 
 PACKAGE = x11proto-dev
+PKGVER = $(shell dpkg-parsechangelog -S Version)
 
 # Build html and txt only:
 override_dh_auto_configure:
@@ -23,6 +24,15 @@ override_dh_install:
 
 override_dh_missing:
 	dh_missing --fail-missing
+
+override_dh_gencontrol:
+	dh_gencontrol -px11proto-bigreqs-dev   -- -v1:$(PKGVER)
+	dh_gencontrol -px11proto-composite-dev -- -v1:$(PKGVER)
+	dh_gencontrol -px11proto-damage-dev    -- -v1:$(PKGVER)
+	dh_gencontrol -px11proto-dmx-dev       -- -v1:$(PKGVER)
+	dh_gencontrol -px11proto-fixes-dev     -- -v1:$(PKGVER)
+	dh_gencontrol -px11proto-render-dev    -- -v2:$(PKGVER)
+	dh_gencontrol --remaining-packages
 
 %:
 	dh $@ --with quilt --builddirectory=build/
