@@ -20,7 +20,6 @@ Homepage: http://www.x.org/
 Package: x11proto-dev
 Architecture: all
 Depends:
- ${shlibs:Depends},
  ${misc:Depends},
  xorg-sgml-doctools (>= 1:1.5),
 Multi-Arch: foreign
