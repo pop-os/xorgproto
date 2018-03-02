@@ -18,7 +18,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-project('xorgproto', 'c', license : 'MIT', version : '2018.3')
+project('xorgproto', 'c', license : 'MIT', version : '2018.4')
 pkg = import('pkgconfig')
 cc = meson.get_compiler('c')
 sed = find_program('sed')
@@ -30,13 +30,13 @@ pcs = [
         ['damageproto',         '1.2.1'],
         ['dmxproto',            '2.3.1'],
         ['dri2proto',           '2.8'],
-        ['dri3proto',           '1.0'],
+        ['dri3proto',           '1.2'],
         ['fixesproto',          '5.0'],
         ['fontsproto',          '2.1.3'],
         ['glproto',             '1.4.17'],
         ['inputproto',          '2.3.2'],
         ['kbproto',             '1.0.7'],
-        ['presentproto',        '1.1'],
+        ['presentproto',        '1.2'],
         ['randrproto',          '1.6.0'],
         ['recordproto',         '1.14.2'],
         ['renderproto',         '0.11.1'],
