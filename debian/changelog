@@ -1,5 +1,5 @@
-xorgproto (2018.3-1) unstable; urgency=medium
+xorgproto (2018.4-1) unstable; urgency=medium
 
   * Initial release. (Closes: #890973)
 
- -- Timo Aaltonen <tjaalton@debian.org>  Thu, 22 Feb 2018 12:05:12 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 02 Mar 2018 11:46:05 +0200
