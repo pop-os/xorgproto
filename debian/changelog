@@ -1,5 +1,7 @@
-xorgproto (2018.4-1) unstable; urgency=medium
+xorgproto (2018.4-2) unstable; urgency=medium
 
   * Initial release. (Closes: #890973)
+    - upstream merged all protocol headers into a single repository,
+      this replaces all now-obsolete x11proto-* packages
 
  -- Timo Aaltonen <tjaalton@debian.org>  Fri, 02 Mar 2018 11:46:05 +0200
