@@ -120,6 +120,7 @@ Description: X11 extension protocols and auxiliary headers
 Package: x11proto-bigreqs-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -127,6 +128,7 @@ Description: transitional dummy package
 Package: x11proto-composite-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -134,6 +136,7 @@ Description: transitional dummy package
 Package: x11proto-core-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -141,6 +144,7 @@ Description: transitional dummy package
 Package: x11proto-damage-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -148,6 +152,7 @@ Description: transitional dummy package
 Package: x11proto-dmx-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -155,6 +160,7 @@ Description: transitional dummy package
 Package: x11proto-dri2-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -162,6 +168,7 @@ Description: transitional dummy package
 Package: x11proto-dri3-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -169,6 +176,7 @@ Description: transitional dummy package
 Package: x11proto-fixes-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -176,6 +184,7 @@ Description: transitional dummy package
 Package: x11proto-fonts-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -183,6 +192,7 @@ Description: transitional dummy package
 Package: x11proto-gl-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -190,6 +200,7 @@ Description: transitional dummy package
 Package: x11proto-input-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -197,6 +208,7 @@ Description: transitional dummy package
 Package: x11proto-kb-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -204,6 +216,7 @@ Description: transitional dummy package
 Package: x11proto-present-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -211,6 +224,7 @@ Description: transitional dummy package
 Package: x11proto-print-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -218,6 +232,7 @@ Description: transitional dummy package
 Package: x11proto-randr-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -225,6 +240,7 @@ Description: transitional dummy package
 Package: x11proto-record-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -232,6 +248,7 @@ Description: transitional dummy package
 Package: x11proto-render-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -239,6 +256,7 @@ Description: transitional dummy package
 Package: x11proto-resource-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -246,6 +264,7 @@ Description: transitional dummy package
 Package: x11proto-scrnsaver-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -253,6 +272,7 @@ Description: transitional dummy package
 Package: x11proto-video-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -260,6 +280,7 @@ Description: transitional dummy package
 Package: x11proto-xcmisc-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -267,6 +288,7 @@ Description: transitional dummy package
 Package: x11proto-xext-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -274,6 +296,7 @@ Description: transitional dummy package
 Package: x11proto-xf86bigfont-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -281,6 +304,7 @@ Description: transitional dummy package
 Package: x11proto-xf86dga-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -288,6 +312,7 @@ Description: transitional dummy package
 Package: x11proto-xf86dri-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -295,6 +320,7 @@ Description: transitional dummy package
 Package: x11proto-xf86vidmode-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
@@ -302,6 +328,7 @@ Description: transitional dummy package
 Package: x11proto-xinerama-dev
 Section: oldlibs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
