@@ -3,6 +3,8 @@ xorgproto (2018.4-4) UNRELEASED; urgency=medium
   * Fix Vcs-* control fields.
   * Stop shipping obsolete PROXY_MANAGEMENT, DEC-XTRAP and XFree86-Misc
     headers (closes: #893975)
+  * Don't pretend to replace/provide x11proto-print-dev, we aren't shipping
+    those headers.
 
  -- Julien Cristau <jcristau@debian.org>  Tue, 27 Mar 2018 22:57:58 +0200
 

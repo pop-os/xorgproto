@@ -37,7 +37,6 @@ Breaks:
  x11proto-input-dev (<< 2018.3),
  x11proto-kb-dev (<< 2018.3),
  x11proto-present-dev (<< 2018.3),
- x11proto-print-dev (<< 2018.3),
  x11proto-randr-dev (<< 2018.3),
  x11proto-record-dev (<< 2018.3),
  x11proto-render-dev (<< 2:2018.3),
@@ -65,7 +64,6 @@ Provides:
  x11proto-input-dev,
  x11proto-kb-dev,
  x11proto-present-dev,
- x11proto-print-dev,
  x11proto-randr-dev,
  x11proto-record-dev,
  x11proto-render-dev,
@@ -93,7 +91,6 @@ Replaces:
  x11proto-input-dev (<< 2018.3),
  x11proto-kb-dev (<< 2018.3),
  x11proto-present-dev (<< 2018.3),
- x11proto-print-dev (<< 2018.3),
  x11proto-randr-dev (<< 2018.3),
  x11proto-record-dev (<< 2018.3),
  x11proto-render-dev (<< 2:2018.3),
@@ -214,14 +211,6 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: x11proto-present-dev
-Section: oldlibs
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, x11proto-dev
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
-Package: x11proto-print-dev
 Section: oldlibs
 Architecture: all
 Multi-Arch: foreign
