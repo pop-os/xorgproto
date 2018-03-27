@@ -1,3 +1,9 @@
+xorgproto (2018.4-4) UNRELEASED; urgency=medium
+
+  * Fix Vcs-* control fields.
+
+ -- Julien Cristau <jcristau@debian.org>  Tue, 27 Mar 2018 22:57:58 +0200
+
 xorgproto (2018.4-3) unstable; urgency=medium
 
   [ Helmut Grohne ]
