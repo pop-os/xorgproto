@@ -1,3 +1,9 @@
+xorgproto (2019.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 05 Sep 2019 23:51:32 +0300
+
 xorgproto (2018.4-4) unstable; urgency=medium
 
   * Fix Vcs-* control fields.
