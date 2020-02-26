@@ -16,9 +16,11 @@ override_dh_auto_install:
 
 # Forget no-one:
 override_dh_install:
-	find debian/tmp/usr/share/doc/$(PACKAGE) -name '*.xml' -delete
-	find debian/tmp/usr/share/doc/$(PACKAGE) -name '*.db' -delete
-	find debian/tmp/usr/share/doc/$(PACKAGE) -name '*.ps' -delete
+	find debian/tmp/usr/share/doc/ -name '*.db' -delete
+	find debian/tmp/usr/share/doc/ -name '*.html' -delete
+	find debian/tmp/usr/share/doc/ -name '*.ps' -delete
+	find debian/tmp/usr/share/doc/ -name '*.svg' -delete
+	find debian/tmp/usr/share/doc/ -name '*.xml' -delete
 
 	dh_install
 
