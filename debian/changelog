@@ -1,4 +1,4 @@
-xorgproto (2019.2-1) UNRELEASED; urgency=medium
+xorgproto (2019.2-1) unstable; urgency=medium
 
   * New upstream release.
   * control: Use debhelper-compat, bump to 12.
@@ -6,7 +6,7 @@ xorgproto (2019.2-1) UNRELEASED; urgency=medium
   * watch: Update upstream vcs url.
   * control: Bump policy to 4.5.0.
 
- -- Timo Aaltonen <tjaalton@debian.org>  Thu, 05 Sep 2019 23:51:32 +0300
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 26 Feb 2020 18:33:26 +0200
 
 xorgproto (2018.4-4) unstable; urgency=medium
 
