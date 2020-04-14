@@ -28,11 +28,6 @@ override_dh_missing:
 	dh_missing --fail-missing
 
 override_dh_gencontrol:
-	dh_gencontrol -px11proto-bigreqs-dev   -- -v1:$(PKGVER)
-	dh_gencontrol -px11proto-composite-dev -- -v1:$(PKGVER)
-	dh_gencontrol -px11proto-damage-dev    -- -v1:$(PKGVER)
-	dh_gencontrol -px11proto-dmx-dev       -- -v1:$(PKGVER)
-	dh_gencontrol -px11proto-fixes-dev     -- -v1:$(PKGVER)
 	dh_gencontrol -px11proto-render-dev    -- -v2:$(PKGVER)
 	dh_gencontrol --remaining-packages
 

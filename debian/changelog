@@ -1,6 +1,17 @@
 xorgproto (2020.1-1) UNRELEASED; urgency=medium
 
   * New upstream release. (Closes: #953032)
+  * control, rules: Drop obsolete transitional packages which have no
+    reverse dependencies left:
+    - x11proto-bigreqs-dev
+    - x11proto-composite-dev
+    - x11proto-damage-dev
+    - x11proto-dmx-dev
+    - x11proto-dri3-dev
+    - x11proto-fixes-dev
+    - x11proto-resource-dev
+    - x11proto-xcmisc-dev
+    - x11proto-xf86bigfont-dev
 
  -- Timo Aaltonen <tjaalton@debian.org>  Mon, 09 Mar 2020 14:10:51 +0200
 
