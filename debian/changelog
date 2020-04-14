@@ -1,4 +1,4 @@
-xorgproto (2020.1-1) UNRELEASED; urgency=medium
+xorgproto (2020.1-1) unstable; urgency=medium
 
   * New upstream release. (Closes: #953032)
   * control, rules: Drop obsolete transitional packages which have no
@@ -13,7 +13,7 @@ xorgproto (2020.1-1) UNRELEASED; urgency=medium
     - x11proto-xcmisc-dev
     - x11proto-xf86bigfont-dev
 
- -- Timo Aaltonen <tjaalton@debian.org>  Mon, 09 Mar 2020 14:10:51 +0200
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 15 Apr 2020 00:18:42 +0300
 
 xorgproto (2019.2-1) unstable; urgency=medium
 
