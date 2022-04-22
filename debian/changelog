@@ -1,3 +1,9 @@
+xorgproto (2022.1-1) UNRELEASED; urgency=medium
+
+  * New upstream release.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 22 Apr 2022 09:41:09 +0300
+
 xorgproto (2021.5-1) unstable; urgency=medium
 
   [ Timo Aaltonen ]
