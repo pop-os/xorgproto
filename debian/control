@@ -191,14 +191,6 @@ Depends: ${misc:Depends}, x11proto-dev
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
-Package: x11proto-xf86dga-dev
-Section: oldlibs
-Architecture: all
-Multi-Arch: foreign
-Depends: ${misc:Depends}, x11proto-dev
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-
 Package: x11proto-xf86dri-dev
 Section: oldlibs
 Architecture: all

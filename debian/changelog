@@ -1,6 +1,7 @@
 xorgproto (2022.2-1) UNRELEASED; urgency=medium
 
   * New upstream release.
+  * control: Drop x11proto-xf86dga-dev, reverse-depends are gone.
 
  -- Timo Aaltonen <tjaalton@debian.org>  Mon, 29 Aug 2022 17:09:13 +0300
 
