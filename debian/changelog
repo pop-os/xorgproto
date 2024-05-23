@@ -1,3 +1,9 @@
+xorgproto (2024.1-1pop1) jammy; urgency=medium
+
+  * Backport to Jammy
+
+ -- Michael Aaron Murphy <michael@mmurphy.dev>  Thu, 23 May 2024 05:16:07 +0200
+
 xorgproto (2024.1-1) unstable; urgency=medium
 
   * New upstream release.
